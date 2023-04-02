@@ -4,8 +4,8 @@
 #!homepage= https://github.com/Nomamuk/EmPugin
 #!icon= https://emby.media/notificationicon.png
 
-[Script]
-EmbyPremiere = type=http-response,script-path=https://gitlab.com/iptv-org/embypublic/-/raw/master/Script/EmbyPremiere.js,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,max-size=131072,requires-body=true,timeout=10,enable=true
+[script]
+http-response script-path=https://gitlab.com/iptv-org/embypublic/-/raw/master/Script/EmbyPremiere.js,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=true,timeout=10
 
-[MITM]
+[mitm]
 hostname = mb3admin.com
