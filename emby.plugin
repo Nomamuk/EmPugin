@@ -8,4 +8,4 @@
 http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice script-path=https://gitlab.com/iptv-org/embypublic/-/raw/master/Script/EmbyPremiere.js,requires-body=true,timeout=10
 
 [mitm]
-hostname = mb3admin.coms
+hostname = mb3admin.com
